@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Page 3</title>
+
+    <link rel="Stylesheet" href="layout.css">
+    <link rel="Stylesheet" href="page3.css">
+    <script src="form.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <!--#12-->
+        <div id="mode">
+
+
+        </div>
+        <h1>
+            This Website!
+        </h1>
+        <nav>
+            <!--#11-->
+            <ul>
+                <li>
+                    <a href="index.html">Index</a>
+                </li>
+                <li>
+                    <a href="page1.html">Page 1</a>
+                </li>
+                <li>
+                    <a href="page2.html">Page 2</a>
+                </li>
+                <li>
+                    <a href="page3.html">Form Elements</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <nav id="wall">
+        <!--#1-->
+        <h1>Wall of links</h1>
+        <ol>
+            <!--#1-->
+            <li><a href="index.html" id="aParent">Index</a></li>
+            <ol>
+                <li><a href="index.html" id="aChild">index ex</a></li>
+            </ol>
+            <li><a href="page1.html" id="aParent">Page 1</a></li>
+            <ol>
+                <li><a href="page1.html" id="aChild">page 1 ex</a></li>
+            </ol>
+            <li><a href="page2.html" id="aParent">Page 2</a></li>
+            <ol>
+                <li><a href="page2.html" id="aChild">page 2 ex</a></li>
+            </ol>
+            <li><a href="page3.html" id="aParent">Page 3</a></li>
+            <ol>
+                <li><a href="page3.html" id="aChild">page 3 ex</a></li>
+            </ol>
+        </ol>
+    </nav>
+    <section>
+        <h1>
+            Using form elements to modify html.
+        </h1>
+        <article id="mainArticle">
+            <h3 id="secondaryHeader">Create a custom paragraph using a form.</h3>
+            <p>Choose a font size. <br>Enter in the text you wish to display. <br>Then enter a word to censor from the text.</p>
+            <form id="form" name="form" action="submit.html">
+                <!--10. b. c. e.-->
+                <input type="radio" name="fontSize" id="large" value="x-large" checked>
+                <label for="large">Large</label><br>
+                <input type="radio" name="fontSize" id="medium" value="medium">
+                <label for="medium">Medium</label><br>
+                <input type="radio" name="fontSize" id="small" value="x-small">
+                <label for="small">Small</label><br><br>
+                <label for="input">Input text to display:</label><br>
+                <textarea name="input" id="input" cols="30" rows="10" required></textarea><br><br>
+
+                <input name="search" type="text" id="search" required> Enter a word to censor <br><br>
+                <input type="submit" value="Submit" id="submit"><br>
+
+            </form>
+        </article>
+    </section>
+    <aside id="rightAside">
+        <h1>
+            Current Date & Time:
+        </h1>
+        <p id="time">
+
+        </p>
+    </aside>
+    <footer>
+        <img src="img/text.png" alt="TEXT">
+        <!--#12-->
+    </footer>
+</body>
+
+</html>
