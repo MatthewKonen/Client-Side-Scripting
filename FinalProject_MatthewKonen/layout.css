@@ -1,0 +1,78 @@
+@charset "utf-8";
+/*#2*/
+/*#14*/
+/*#6*/
+body{
+    margin: 0 auto;/*#4*/
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    padding: 0%;
+    font-family: 'Lora', serif;/*#10*/
+}
+header{
+    width: 100%;
+    text-align: center;
+}
+header img{
+    float: left;
+    height: 40px;
+    margin-left: .5%;
+    margin-top: .5%;
+}
+header h1{/*#4*/
+    margin: 0 auto;
+}
+body>header>nav{
+    width: 100%;
+    display: table;   
+}
+body>header>nav>ul{
+    display: table-row;
+}
+body>header>nav>ul>li {
+    display: table-cell;
+    text-align: center;
+}
+body>header>nav>ul>li a:link /*#7*/{
+    color: darkturquoise;
+    text-decoration: none;
+}
+body>header>nav>ul>li a:visited /*#7*/{
+    color: darkslateblue;
+}
+body>header>nav>ul>li a:hover /*#7*/{
+    color: red;
+}
+body>header>nav>ul>li a:active /*#7*/{
+    color: yellow;
+}
+body>nav{
+    width: 16%;
+    float: left;
+    height: 100%;
+}
+body>nav ol{/*#13*/
+    list-style-image: url('bullet.png');
+}
+body>section{
+    width: 60%;
+    float: left;
+}
+body>aside{
+    float: right;
+    width: 17%;
+    margin: 0 10px 10px 0;
+}
+footer{
+    width: 100%;
+    float: left;
+    position: fixed;
+    bottom: 0;
+}
+footer img{
+    display: block;
+    margin-left: 1vw;/*#9*/
+    height: 1%;
+    width: 200px;
+}

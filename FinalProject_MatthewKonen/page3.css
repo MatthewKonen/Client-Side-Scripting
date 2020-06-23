@@ -1,0 +1,53 @@
+@charset "utf-8";
+/*#2*/
+html{
+    color: blue;/*#8*/
+}
+body{
+    background-color: darkgrey;
+}
+header{
+    background-color: gray
+}
+article{
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+nav#wall{/*#3*/
+    background-color: rgb(200, 200, 200);
+}
+h1, p{
+    text-align: center;
+}
+article h1{/*#9*/
+    font-size: 3vh;
+}
+article p{/*#9*/
+    font-size: 2vh;
+}
+.img1{/*#3*/
+    padding: 0 10px 0 10px;
+    height: 20vh;
+}
+.img2{/*#3*/
+    padding: 0 10px 0 10px;
+    height: 20vh;
+}
+.img3{/*#3*/
+    padding: 0 10px 0 10px;
+    height: 20vh;
+}
+.img4{/*#3*/
+    padding: 0 10px 0 10px;
+    height: 20vh;
+}
+.img5{/*#3*/
+    padding: 0 10px 0 10px;
+    height: 20vh;
+}
+.img6{/*#3*/
+    padding: 0 10px 0 10px;
+    height: 20vh;
+}
+
